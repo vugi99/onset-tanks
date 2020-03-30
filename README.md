@@ -1,19 +1,35 @@
 # onset-tanks
 
-#### Informations
-* Custom Models by Kemro#0182
-* there is 2 tanks atm , the first tank is the green tank and the second tank is the desert tank
+#### Tanks
+* [Sherman](https://sketchfab.com/3d-models/sherman-00ec6397c1634430a828c22101abfad5) by [Daniel Campos](https://sketchfab.com/danielpinhocampos)
+* [Tank](https://sketchfab.com/3d-models/tank-a16de8a3c888482e9c49ccf8cb9896e1) by [J_](https://sketchfab.com/moha1)
+* [Panzer IV](https://sketchfab.com/3d-models/panzer-iv-medium-tank-toshueyi-14c74d148326448c8edb5fee81be3894) by [Shue-Yi To](https://sketchfab.com/Toshueyi)
+* [M1 Abrams](https://sketchfab.com/3d-models/m1-abrams-2577a4eccbc74b2da6dba5bfd09b7511) by [Artem Goyko](https://sketchfab.com/Artem.Goyko)
+* [Т-34](https://sketchfab.com/3d-models/-34-8782ae511c5d40d087c520d5a150e427) by [Petr Vorobey](https://sketchfab.com/vorobey.petr)
+
 #### Commands
 * /stank (id) to spawn a tank
 #### Developers
 * The onset-tanks package need to be loaded BEFORE your package if you want to use onset-tanks functions
-* Objects 52,53,54,55,56,57 are replaced
+* Objects 43 to 58 are replaced by default
 * To check if the vehicle is a tank :
 ```
    --server,client
-   if GetVehiclePropertyValue(vehicleid, "istank") == true then
+   if GetVehiclePropertyValue(vehicleid, "istank") then
       -- code
    end
+```
+* Get tank id
+```
+   --server,client
+   GetVehiclePropertyValue(vehicle, "tankid")
+```
+* Get turret , cannon and base models of a tank
+```
+   --server,client
+   local turret = GetVehiclePropertyValue(vehicle, "tourelleobj")
+   local cannon = GetVehiclePropertyValue(vehicle, "canonobj")
+   local base = GetVehiclePropertyValue(vehicle, "baseobj")
 ```
 * Don't forget to import the onset-tanks package before using functions
 ```
@@ -31,4 +47,4 @@
    local cannonobject,turretobject,tank_base_object = tanks.TransformToTank(tankid,vehicleid)
 ```
 #### Known bugs
-* bad turret pitch and roll rotation
+* Nothing
