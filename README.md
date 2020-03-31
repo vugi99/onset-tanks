@@ -8,7 +8,7 @@
 * [Т-34](https://sketchfab.com/3d-models/-34-8782ae511c5d40d087c520d5a150e427) by [Petr Vorobey](https://sketchfab.com/vorobey.petr)
 * [Tank T-10M](https://sketchfab.com/3d-models/tank-t-10m-9aeda33a945c42f0bdebe3d1ef91da06) by [yanix](https://sketchfab.com/yanix)
 * [Tiger I](https://sketchfab.com/3d-models/tiger-i-pzkpfw-vi-ausf-e-5dde7ae017584613a823784f744935fc) by [M1RON](https://sketchfab.com/M1RON)
-* Splited the models into 3 parts : cannon, turret and base
+* Ayanokōji#0413 splited the models into 3 parts : cannon, turret and base
 #### Commands
 * /stank (id) to spawn a tank
 #### Developers
