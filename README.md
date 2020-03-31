@@ -1,13 +1,14 @@
 # onset-tanks
 
+#### Config in config.lua
 #### Tanks
-* [Sherman](https://sketchfab.com/3d-models/sherman-00ec6397c1634430a828c22101abfad5) by [Daniel Campos](https://sketchfab.com/danielpinhocampos)
-* [Tank](https://sketchfab.com/3d-models/tank-a16de8a3c888482e9c49ccf8cb9896e1) by [J_](https://sketchfab.com/moha1)
-* [Panzer IV](https://sketchfab.com/3d-models/panzer-iv-medium-tank-toshueyi-14c74d148326448c8edb5fee81be3894) by [Shue-Yi To](https://sketchfab.com/Toshueyi)
-* [M1 Abrams](https://sketchfab.com/3d-models/m1-abrams-2577a4eccbc74b2da6dba5bfd09b7511) by [Artem Goyko](https://sketchfab.com/Artem.Goyko)
-* [Т-34](https://sketchfab.com/3d-models/-34-8782ae511c5d40d087c520d5a150e427) by [Petr Vorobey](https://sketchfab.com/vorobey.petr)
-* [Tank T-10M](https://sketchfab.com/3d-models/tank-t-10m-9aeda33a945c42f0bdebe3d1ef91da06) by [yanix](https://sketchfab.com/yanix)
-* [Tiger I](https://sketchfab.com/3d-models/tiger-i-pzkpfw-vi-ausf-e-5dde7ae017584613a823784f744935fc) by [M1RON](https://sketchfab.com/M1RON)
+* 1 [Sherman](https://sketchfab.com/3d-models/sherman-00ec6397c1634430a828c22101abfad5) by [Daniel Campos](https://sketchfab.com/danielpinhocampos)
+* 2 [Tank](https://sketchfab.com/3d-models/tank-a16de8a3c888482e9c49ccf8cb9896e1) by [J_](https://sketchfab.com/moha1)
+* 3 [Panzer IV](https://sketchfab.com/3d-models/panzer-iv-medium-tank-toshueyi-14c74d148326448c8edb5fee81be3894) by [Shue-Yi To](https://sketchfab.com/Toshueyi)
+* 4 [M1 Abrams](https://sketchfab.com/3d-models/m1-abrams-2577a4eccbc74b2da6dba5bfd09b7511) by [Artem Goyko](https://sketchfab.com/Artem.Goyko)
+* 5 [Т-34](https://sketchfab.com/3d-models/-34-8782ae511c5d40d087c520d5a150e427) by [Petr Vorobey](https://sketchfab.com/vorobey.petr)
+* 6 [Tank T-10M](https://sketchfab.com/3d-models/tank-t-10m-9aeda33a945c42f0bdebe3d1ef91da06) by [yanix](https://sketchfab.com/yanix)
+* 7 [Tiger I](https://sketchfab.com/3d-models/tiger-i-pzkpfw-vi-ausf-e-5dde7ae017584613a823784f744935fc) by [M1RON](https://sketchfab.com/M1RON)
 * Ayanokōji#0413 splited the models into 3 parts : cannon, turret and base
 #### Commands
 * /stank (id) to spawn a tank
