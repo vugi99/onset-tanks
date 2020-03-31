@@ -6,12 +6,14 @@
 * [Panzer IV](https://sketchfab.com/3d-models/panzer-iv-medium-tank-toshueyi-14c74d148326448c8edb5fee81be3894) by [Shue-Yi To](https://sketchfab.com/Toshueyi)
 * [M1 Abrams](https://sketchfab.com/3d-models/m1-abrams-2577a4eccbc74b2da6dba5bfd09b7511) by [Artem Goyko](https://sketchfab.com/Artem.Goyko)
 * [Т-34](https://sketchfab.com/3d-models/-34-8782ae511c5d40d087c520d5a150e427) by [Petr Vorobey](https://sketchfab.com/vorobey.petr)
+* [Tank T-10M](https://sketchfab.com/3d-models/tank-t-10m-9aeda33a945c42f0bdebe3d1ef91da06) by [yanix](https://sketchfab.com/yanix)
+* [Tiger I](https://sketchfab.com/3d-models/tiger-i-pzkpfw-vi-ausf-e-5dde7ae017584613a823784f744935fc) by [M1RON](https://sketchfab.com/M1RON)
 
 #### Commands
 * /stank (id) to spawn a tank
 #### Developers
 * The onset-tanks package need to be loaded BEFORE your package if you want to use onset-tanks functions
-* Objects 43 to 58 are replaced by default
+* Objects 43 to 64 are replaced by default
 * To check if the vehicle is a tank :
 ```
    --server,client
@@ -47,4 +49,5 @@
    local cannonobject,turretobject,tank_base_object = tanks.TransformToTank(tankid,vehicleid)
 ```
 #### Known bugs
-* Nothing
+* Some cannons flying when rotating on the pitch axis
+* Bad collisions
