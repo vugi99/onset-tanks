@@ -14,7 +14,6 @@
 * /stank (id) to spawn a tank
 #### Developers
 * The onset-tanks package need to be loaded BEFORE your package if you want to use onset-tanks functions
-* Objects 43 to 64 are replaced by default
 * To check if the vehicle is a tank :
 ```
    --server,client
